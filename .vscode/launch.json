@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindAllAnagramsInAString",
+            "request": "launch",
+            "mainClass": "top.daoyang.slidingwindow.FindAllAnagramsInAString",
+            "projectName": "algorithm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AQSTest",
             "request": "launch",
             "mainClass": "top.daoyang.aqs.AQSTest",
