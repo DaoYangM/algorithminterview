@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ValidAnagram",
+            "request": "launch",
+            "mainClass": "top.daoyang.setandmap.ValidAnagram",
+            "projectName": "algorithm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindAllAnagramsInAString",
             "request": "launch",
             "mainClass": "top.daoyang.slidingwindow.FindAllAnagramsInAString",
