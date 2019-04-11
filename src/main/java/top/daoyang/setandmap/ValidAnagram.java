@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ValidAnagram {
 
-    public boolean test(String s, String t) {
+    public boolean isAnagram(String s, String t) {
         Map<Character, Integer> sm = new HashMap<>();
         Map<Character, Integer> tm = new HashMap<>();
 
@@ -31,7 +31,8 @@ public class ValidAnagram {
             return false;
             
         for (Map.Entry<Character, Integer> entry : sm.entrySet()) {
-            if (!tm.get(entry.getKey()).equals(entry.getValue())) {
+            Integer tV = tm.get(entry.getKey());
+            if (tV == null || !tV.equals(entry.getValue())) {
                 return false;
             }
         }
@@ -40,7 +41,7 @@ public class ValidAnagram {
 
     public static void main(String[] args) {
         ValidAnagram validAnagram = new ValidAnagram();
-        boolean test = validAnagram.test("anagram", "namarag");
+        boolean test = validAnagram.isAnagram("a", "b");
         System.out.println(test);
     }
 }
