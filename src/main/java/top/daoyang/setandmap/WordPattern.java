@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WordPattern {
-    public boolean isValid(String pattern, String str) {
+    public boolean wordPattern(String pattern, String str) {
         Map<Character, String> reflect = new HashMap<>();
 
         char[] pc = pattern.toCharArray();
@@ -30,6 +30,6 @@ public class WordPattern {
 
     public static void main(String[] args) {
         WordPattern wordPattern = new WordPattern();
-        System.out.println(wordPattern.isValid("abba", "dog cat cat dog"));
+        System.out.println(wordPattern.wordPattern("abba", "dog cat cat dog"));
     }
 }
