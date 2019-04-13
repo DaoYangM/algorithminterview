@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - WordPattern",
+            "request": "launch",
+            "mainClass": "top.daoyang.setandmap.WordPattern",
+            "projectName": "algorithm"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ValidAnagram",
             "request": "launch",
             "mainClass": "top.daoyang.setandmap.ValidAnagram",
