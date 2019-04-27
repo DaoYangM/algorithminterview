@@ -2,3 +2,5 @@
 **/.vscode/*
 **/out/*
 **/.settings/*
+**/.gradle/*
+**/.idea/*
